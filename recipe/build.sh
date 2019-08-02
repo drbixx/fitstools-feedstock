@@ -9,9 +9,6 @@ if [[ ${target_platform} =~ .*linux.* ]]; then
     CXXFLAGS="${CXXFLAGS//-std=c++17/-std=c++14}"
 fi
 
-# Re-run autotools because we want to disable smoothfits
-autoreconf -if
-
-./configure --prefix=${PREFIX}
+./configure --prefix=${PREFIX} --with-ltl=${PREFIX} --with-libjpeg=${PREFIX}
 make
 make install
