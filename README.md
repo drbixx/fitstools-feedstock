@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fitstools-feeds
 
 Home: https://www.usm.uni-muenchen.de/people/cag/fitstools.html
 
-Package license: GPL-2.0
+Package license: GPL-2.0-only
 
 Summary: Basic shell commandline programs that can perform many operations on FITS files
 
