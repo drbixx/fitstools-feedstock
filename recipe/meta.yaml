@@ -25,7 +25,7 @@ requirements:
 
 about:
   home: https://www.usm.uni-muenchen.de/people/cag/fitstools.html
-  license: GPL-2.0
+  license: GPL-2.0-only
   license_family: GPL
   license_file: COPYING
   summary: 'Basic shell commandline programs that can perform many operations on FITS files'
